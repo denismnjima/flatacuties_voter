@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "author": "Denis Njima",
+      "author_gender": "male",
+      "date": "2/7/2024",
+      "title": "Dorateo",
+      "picture": "images/pet6.jpg",
+      "votes": 199
+    },
+    {
+      "id": "2",
+      "author": "Ami Waka",
+      "author_gender": "female",
+      "date": "2/7/2024",
+      "title": "How do you like crarita?",
+      "picture": "images/pet3.jpeg",
+      "votes": 57
+    },
+    {
+      "id": "3",
+      "author": "Lucy",
+      "author_gender": "female",
+      "date": "2/7/2024",
+      "title": "Somio is my chicken pet",
+      "picture": "images/pet9.webp",
+      "votes": 21
+    }
+  ]
+}
