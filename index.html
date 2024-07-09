@@ -3,43 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pectacute</title>
+    <title>Shopping List</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <script src="javascript/main.js" defer></script>
 </head>
 <body>
-    <!-- HEADER -->
-     <header>
-        <img src="images/plus.png" alt="add post" class="post--add">
-        <div class="profile">
-            <img src="images/male.png" alt="profile-img">
+    <section class="shopping-list">
+        <div class="lists">
+            <ul>
+                <h1 id="welcome-text"> Your Shopping List will appear here!</h1>
+            </ul>
         </div>
-     </header>
-
-     <!-- POSTS SECTION -->
-     <section class="posts">
-
-     </section>
-
-
-
-
-     <!-- INDIVIDUAL FULL SCREEN POST -->
-    <section class="post--full">s
-
-    </section>
-
-    <!-- ADD POST -->
-     <section class="add--post">
-        <div class="head">
-            <h3>X</h3>
+        <div class="add-list">
+            <input type="text" id="input-item">
+            <button onclick="takeInput()">Add</button>
         </div>
-        <h3>Let us see your pet</h3>
-        <form  id="addPet">
-            <input type="text" name="title" id="title" placeholder="tell us about your pet">
-            <input type="url" name="image" id="image" placeholder="image url">
-            <button type="submit">Submit</button>
-        </form>
-     </section>
+    </section>   
 </body>
 </html>
